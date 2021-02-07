@@ -12,6 +12,7 @@ float degree(int hour, int min)
   if (res > 180) {
     res = 360 - res;
   }
+  
   return res;
 }
 
